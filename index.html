@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Төгөлдөр</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero">
+            <h1><span>т</span>өг <span>ө</span>лдөр</h1>
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="#hero" data-after="Home">гэр</a></li>
+            <li><a href="#services" data-after="Service">Хобби</a></li>
+            <li><a href="#projects" data-after="Projects">Миний чадварууд</a></li>
+            <li><a href="#about" data-after="About">Миний тухай</a></li>
+            <li><a href="#contact" data-after="Contact">холбоо барих</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>Сайн байна уу, <span></span></h1>
+        <h1>Намайг <span></span></h1>
+        <h1>Төгөлдөр гэдэг<span></span></h1>
+        <a href="#projects" type="button" class="cta">Танилцуулга</a>
+      </div>
+    </div>
+  </section>
+  <section id="services">
+    <div class="services container">
+      <div class="service-top">
+        <h1 class="section-title">Мин<span>ий </span> хобби </h1>
+      </div>
+      <div class="service-bottom">
+        <div class="service-item">
+          <div class="icon"><img src="https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA3L3JtNjU5LXJlbWl4MS0wMDZhLWIuanBn.jpg" /></div>
+          <h2>Воллебалл</h2>
+          <p></p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="https://i.ytimg.com/vi/77MY9YjJrsc/maxresdefault.jpg" /></div>
+          <h2>Зураг янзлах</h2>
+          <p></p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="developer.png" /></div>
+          <h2>Код бичих</h2>
+          <p></p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="data:image/jpeg;base64,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" /></div>
+          <h2>Аниме үзэх</h2>
+          <p></p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section  -->
+
+  <!-- Service Section -->
+  <section id="services">
+    <div class="services container">
+      <div class="service-top">
+        <h1 class="section-title">Тө<span>с</span>өл</h1>
+        <p>!</p>
+      </div>
+      <div class="service-bottom">
+        <div class="service-item">
+          <div class="icon"><img src="rock.png" /></div>
+          <h2>Хайч чулуу даавуу</h2>
+          <button><a  href="https://tuguldur9565.github.io/rock-paper2/" class="button">
+            <span class="transition"></span>
+            <span class="gradient"></span>
+            <span class="label">click here</span>
+          </a></button>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="Screenshot 2023-11-02 233710.png" /></div>
+          <h2>секундомер</h2>
+          <button><a  href="file:///C:/Users/DELL/Desktop/tc%20202%20project%20day/tc-202/lab%2010/index.html" class="button">
+            <span class="transition"></span>
+            <span class="gradient"></span>
+            <span class="label">click here</span>
+          </a></button>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="Screenshot 2023-11-02 235519.png" /></div>
+          <h2>blox fruit wiki</h2>
+          <button><a  href="file:///C:/Users/DELL/Desktop/tc%20202%20project%20day/tc-103/tailan%20website/index.html" class="button">
+            <span class="transition"></span>
+            <span class="gradient"></span>
+            <span class="label">click here</span>
+          </a></button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Service Section -->
+
+  <!-- My skills Section -->
+        <h1 class="section-title">Миний <span>чадварууд</span></h1>
+      </div>
+      <div class="container">
+        <div class="row">
+            <section class="col">
+                
+                <div class="sub-title">
+                    <h2>Програмчлалын ур чадвар</h2>
+                </div>
+    
+                <div class="skills-container">
+                    
+                    <div class="skill">
+                        <div class="subject">HTML</div>
+                        <div class="progress-bar" value="94%">
+                            <div class="progress-line" style="max-width: 94%"></div>
+                        </div>
+                    </div>
+    
+                    <div class="skill">
+                        <div class="subject">CSS</div>
+                        <div class="progress-bar" value="73%">
+                            <div class="progress-line" style="max-width: 73%"></div>
+                        </div>
+                    </div>
+    
+                    <div class="skill">
+                        <div class="subject">JavaScript</div>
+                        <div class="progress-bar" value="88%">
+                            <div class="progress-line" style="max-width: 88%"></div>
+                        </div>
+                    </div>
+    
+            </section>
+            <section class="col">
+                
+                <div class="sub-title">
+                    <h2>график дизайны ур чадвар</h2>
+                </div>
+    
+                <div class="skills-container">
+                    
+                    <div class="skill">
+                        <div class="subject">Photoshop</div>
+                        <div class="progress-bar" value="82%">
+                            <div class="progress-line" style="max-width: 82%"></div>
+                        </div>
+                    </div>
+    
+              
+    
+                </div>
+            </section>
+        </div>
+    
+    </div>
+  </section>
+  <section id="about">
+    <div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="ungas.png.jpg" alt="img">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">Миний  <span> тухай</span></h1>
+        <h2>Хөгжүүлэгч бас Дизайнер</h2>
+        <p>Намайг Төгөлдөр гэдэг, би 15 настай, Улаанбаатар хотод амьдардаг
+          Би физик, математик, биологи, химийн хичээлд дуртай
+          Цаашдаа <a href="https://www.smu.edu.sg" target="_blank">Сингапурын Менежментийн Их Сургуульд (SMU)</a> орох төлөвлөгөөтэй байгаа</p>
+        <div class="button">
+          <button><a  href="indexChina.html" class="button">
+            <span class="transition"></span>
+            <span class="gradient"></span>
+            <span class="label">Chinese</span>
+          </a></button>
+          <button><a  href="indexMongol.html" class="button">
+            <span class="transition"></span>
+            <span class="gradient"></span>
+            <span class="label">Mongolia</span>
+        </a></button>
+          <button><a  href="indexEnglish.html" class="button">
+            <span class="transition"></span>
+            <span class="gradient"></span>
+            <span class="label">English</span>
+          </a></button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="contact">
+    <div class="contact container">
+      <div>
+        <h1 class="section-title">Холбоо барих<span> мэдээлэл</span></h1>
+      </div>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
+          <div class="contact-info">
+            <h1>Утасны дугаар</h1>
+            <h2>95655460</h2>
+            <h2>95655460</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
+          <div class="contact-info">
+            <h1>Имайл</h1>
+            <h2>uuganbyartogoldor@gmail.com</h2>
+            <h2>metalpanda548@gmail.com</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
+          <div class="contact-info">
+            <h1>Гэрийн хаяг</h1>
+            <h2>Монгол Улаанбаатар хот</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1><span>Т</span>өг<span>ө</span>лдөр</h1>
+      </div>
+      <div class="social-icon">
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/twitter.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/behance.png" /></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="script.js"></script>
+</body>
+
+</html>
